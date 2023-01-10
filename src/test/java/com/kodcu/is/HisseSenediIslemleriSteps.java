@@ -27,7 +27,6 @@ public class HisseSenediIslemleriSteps {
 
     @Ozaman("^sistem  uyarısı  şöyle olmalıdır OFF$")
     public void sistemUyarısıŞöyleOlmalıdırOFF() throws Throwable {
-
         org.junit.Assert.assertEquals(hisse.getDurum(), "OFF");
     }
 
